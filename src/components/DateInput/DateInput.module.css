@@ -1,0 +1,7 @@
+.dateInputsContainer {
+  @apply flex gap-[22px];
+}
+
+.errorMessageText {
+  @apply text-[#FF0000] text-[1rem];
+}

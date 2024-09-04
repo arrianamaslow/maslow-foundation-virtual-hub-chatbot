@@ -1,0 +1,12 @@
+.userTextBox {
+  @apply ml-auto p-2 mr-0 rounded-lg bg-gray-300 w-fit md:max-w-[474px] max-w-[238px] self-stretch text-black text-[17px] md:text-[18px] leading-normal not-italic font-normal break-words;
+}
+.assistantTextBox {
+  @apply rounded-lg w-fit md:max-w-[474px] max-w-[238px] self-stretch text-black text-[17px] md:text-[18px] leading-normal not-italic font-normal break-words;
+}
+.userDiv {
+  @apply flex items-end self-end w-fit flex-row-reverse gap-2;
+}
+.assistantDiv {
+  @apply flex w-fit flex-row self-start items-end gap-2;
+}

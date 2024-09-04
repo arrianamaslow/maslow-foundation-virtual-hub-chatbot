@@ -1,0 +1,14 @@
+<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="interface-alert-warning-triangle--frame-alert-warning-triangle-exclamation-caution" clip-path="url(#clip0_442_499)">
+<g id="Group">
+<path id="Vector" d="M14 10.1426V15.9283" stroke="#FF0000" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M14 22.6786C14.5523 22.6786 15 22.2468 15 21.7143C15 21.1817 14.5523 20.75 14 20.75C13.4477 20.75 13 21.1817 13 21.7143C13 22.2468 13.4477 22.6786 14 22.6786Z" stroke="#FF0000" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M15.7801 2.5248C15.6122 2.2089 15.3572 1.94379 15.0432 1.75867C14.7291 1.57354 14.3681 1.47559 14.0001 1.47559C13.632 1.47559 13.271 1.57354 12.9569 1.75867C12.6429 1.94379 12.3879 2.2089 12.2201 2.5248L1.22005 23.7391C1.06663 24.0327 0.993587 24.3592 1.00786 24.6877C1.02212 25.0161 1.12323 25.3356 1.30158 25.6158C1.47992 25.896 1.72958 26.1276 2.02685 26.2885C2.32412 26.4495 2.65912 26.5345 3.00005 26.5355H25.0001C25.341 26.5345 25.676 26.4495 25.9733 26.2885C26.2705 26.1276 26.5202 25.896 26.6985 25.6158C26.8769 25.3356 26.978 25.0161 26.9922 24.6877C27.0065 24.3592 26.9335 24.0327 26.7801 23.7391L15.7801 2.5248Z" stroke="#FF0000" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_442_499">
+<rect width="28" height="27" fill="white" transform="translate(0 0.5)"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,23 @@
+.primary {
+  @apply border-black bg-black text-white hover:border-gray-500 hover:bg-gray-500 active:bg-stone-500 active:border-black;
+}
+
+.primary:disabled {
+  @apply border-stone-300 bg-stone-300 text-white;
+}
+
+.secondary {
+  @apply border-black bg-white hover:border-stone-300 active:border-black;
+}
+
+.secondary:disabled {
+  @apply border-stone-300 bg-white text-stone-300;
+}
+
+.tertiary {
+  @apply border-white bg-white hover:underline hover:text-stone-300 active:text-black active:underline;
+}
+
+.tertiary:disabled {
+  @apply border-white bg-white text-stone-300;
+}

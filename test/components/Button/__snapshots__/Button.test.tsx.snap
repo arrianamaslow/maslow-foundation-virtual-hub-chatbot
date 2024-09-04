@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> renders correctly 1`] = `
+<div>
+  <button
+    class="inline-flex w-full justify-center px-[24px] py-[10px] flex-shrink-0 rounded-lg border-solid border-[1px] text-[16px] primary"
+  >
+    placeholder text
+  </button>
+</div>
+`;

@@ -1,0 +1,51 @@
+Dockerfile
+README.md
+components.json
+.gitignore
+.dockerignore
+.eslintignore
+.eslintrc.json
+.git
+/test
+/.husky
+/.swc
+/src/__mocks__
+/prettier*.*
+*/**/jest*.*
+*/**/*.yml
+
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.test
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts

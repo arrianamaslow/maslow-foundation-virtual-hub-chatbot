@@ -1,0 +1,11 @@
+.wrapper {
+  @apply relative;
+}
+
+.redBorder {
+  @apply [&>*]:!border-[#FF0000];
+}
+
+.errorMessageText {
+  @apply text-[#FF0000] text-[1rem];
+}

@@ -1,0 +1,3 @@
+export function getTaskPrompt(questionToAsk: string): string {
+  return `The next question we want to ask the user is '${questionToAsk}'. Please return your response in a JSON object with one key, 'message', where the value is your reply. Ask the user this in a way that flows well and is sensitive to the conversation to date, considering what the user has just responded with, but ensure to not repeat the content of any prior system messages. You should not change the meaning of the question, or make it less specific -  e.g. if the question asks 'how often' a user feels a certain way, it's important not to remove that. You should try to acknowledge what the user said in only their most recent answer in a conversational tone before asking the next question.`
+}

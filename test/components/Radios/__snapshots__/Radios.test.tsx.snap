@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Radios /> renders correctly 1`] = `
+<div>
+  <div
+    class="flex md:h-[20px] min-w-[8rem]"
+  >
+    <div
+      class=" min-w-[8rem]"
+    >
+      <label
+        class="flex gap-2 items-center md:h-[20px]"
+        data-testid="mock-radio-option-0"
+        tabindex="0"
+      >
+        <p>
+           
+          CHECKDISABLED
+        </p>
+        <input
+          class="hidden"
+          name="test"
+          type="radio"
+        />
+        hello
+      </label>
+    </div>
+    <div
+      class=" min-w-[8rem]"
+    >
+      <label
+        class="flex gap-2 items-center md:h-[20px]"
+        data-testid="mock-radio-option-1"
+        tabindex="1"
+      >
+        <p>
+           
+          CHECKDISABLED
+        </p>
+        <input
+          class="hidden"
+          name="test"
+          type="radio"
+        />
+        world
+      </label>
+    </div>
+    <div
+      class=" min-w-[8rem]"
+    >
+      <label
+        class="flex gap-2 items-center md:h-[20px]"
+        data-testid="mock-radio-option-2"
+        tabindex="2"
+      >
+        <p>
+           
+          CHECKDISABLED
+        </p>
+        <input
+          class="hidden"
+          name="test"
+          type="radio"
+        />
+        everyone
+      </label>
+    </div>
+  </div>
+</div>
+`;

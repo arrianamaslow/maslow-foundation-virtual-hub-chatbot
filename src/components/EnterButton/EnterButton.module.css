@@ -1,0 +1,11 @@
+.enterButton {
+  @apply stroke-[#000000] hover:stroke-[#60615F];
+}
+
+.enterButton:disabled {
+  @apply stroke-[#B3B6B0];
+}
+
+.enterButton:active {
+  @apply stroke-[#6D6262];
+}

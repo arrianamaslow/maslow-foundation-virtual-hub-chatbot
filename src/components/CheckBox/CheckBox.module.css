@@ -1,0 +1,7 @@
+.boxBorder {
+  @apply w-[20px] h-[20px] border-2 border-black rounded-full;
+}
+
+.selectedBox {
+  @apply flex justify-center items-center;
+}

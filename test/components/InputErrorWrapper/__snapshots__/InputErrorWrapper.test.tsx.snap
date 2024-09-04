@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputErrorWrapper /> should render as expected 1`] = `
+<div>
+  <div
+    class="wrapper redBorder"
+    data-testid="outerBox"
+  >
+    <p>
+      CHILDREN
+    </p>
+    <div
+      class="absolute top-0 right-0 h-full flex items-center justify-center px-[16px]"
+    >
+      <div>
+        <img
+          alt="Exclamation mark"
+          height="32"
+          src="/img/exclamation-mark.svg"
+          width="32"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="errorMessageText"
+  >
+    ERROR
+  </div>
+</div>
+`;

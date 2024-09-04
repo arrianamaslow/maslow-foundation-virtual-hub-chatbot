@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Lato;
+    font-weight: 400;
+    src: url(../../public/fonts/Lato/Lato-Regular.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: Baskervald;
+    font-weight: 500;
+    src: url(../../public/fonts/Baskervald-ADF-Std/Baskervaldadfstd.otf) format('opentype');
+  }
+
+  * {
+    @apply font-lato;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-bold;
+  }
+
+  h1 {
+    @apply text-[4.188rem];
+  }
+
+  h2 {
+    @apply text-[3.125rem];
+  }
+
+  h3 {
+    @apply text-[2.375rem];
+  }
+
+  h3.font-baskervald {
+    @apply font-normal;
+  }
+
+  h4 {
+    @apply text-[1.75rem];
+  }
+
+  .subtitle {
+    @apply text-[26px] font-medium;
+  }
+
+  .body-large-desktop {
+    @apply text-[1.75rem] font-normal;
+  }
+
+  button {
+    @apply text-[1rem] font-semibold;
+  }
+
+  .noVisualScrollbar::-webkit-scrollbar {
+    @apply hidden;
+  }
+
+  input {
+    @apply border-2 rounded-[8px] border-[#B3B6B0] h-[44px] px-[16px] pr-[50px] hover:border-[#60615F] text-[21px];
+  }
+
+  input:focus {
+    @apply border-2 border-[#000000] outline-none;
+  }
+
+  /* Hide arrow buttons on number input  */
+  input[type='number']::-webkit-outer-spin-button,
+  input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+}

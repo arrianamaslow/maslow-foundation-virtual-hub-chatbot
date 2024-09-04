@@ -1,0 +1,11 @@
+.doneSegment {
+  @apply h-[8px] grow bg-black;
+}
+
+.notDoneSegment {
+  @apply h-[8px] grow bg-[#D9D9D9];
+}
+
+.segmentContainer {
+  @apply flex gap-x-[14px];
+}
