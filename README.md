@@ -5,10 +5,10 @@ This project uses Next.js, TypeScript, [Tailwind CSS](https://tailwindcss.com/),
 ## Getting started
 
 1. Install the dependencies by running `npm install` in a terminal from the root of the project.
-2. Add a `.env.local` file in the root of the project with the following variables:
-  - `OPENAI_API_KEY` - Your OpenAI API key (ask Oscar for this).
-3. Run the development server: `npm run dev`.
-4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Make a copy of the `.env.template` file and name it `.env.local`. Ensure it is in the root of the project.
+3. Add values for each of the environment variables in `.env.local`. Note: Maslow Foundation - please see 'Environment variables' in the handover documentation for how to retrieve these.
+4. Run the development server: `npm run dev`.
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 **Note: If you are running a demo, use a production server (run `npm run build` followed by `npm run start`).**
 
